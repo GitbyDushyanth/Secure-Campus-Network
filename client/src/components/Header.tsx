@@ -38,7 +38,7 @@ const TAB_TITLES: Record<ActiveTab, { title: string; subtitle: string }> = {
     subtitle: 'Secure administrative access (v2), RSA-2048 encryption, local auth, and MOTD banner'
   },
   logs: {
-    title: 'Security Audit Logs & PBL Demonstration Report',
+    title: 'Security Audit Logs & Compliance Report',
     subtitle: 'Chronological test results, ACL violation events, CSV export, and print summary'
   }
 };
@@ -51,7 +51,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, onRefresh, isRefreshi
       <div>
         <div className="flex items-center space-x-2 text-xs text-cyan-400 font-mono mb-1">
           <Shield className="w-3.5 h-3.5" />
-          <span>COLLEGE PBL: SECURE CAMPUS NETWORK</span>
+          <span>SECURE CAMPUS NETWORK</span>
           <span className="text-slate-600">•</span>
           <span className="text-slate-400">CISCO 2911 ROUTER-ON-A-STICK</span>
         </div>

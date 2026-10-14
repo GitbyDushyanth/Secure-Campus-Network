@@ -52,7 +52,7 @@ export const SecurityLabView: React.FC<SecurityLabViewProps> = ({
     testHistory[0] || null
   );
 
-  // 7 Predefined tests strictly required by PBL prompt
+  // 7 Predefined security test scenarios
   const predefinedScenarios = [
     {
       source: 'ADMIN-PC',
@@ -257,7 +257,7 @@ export const SecurityLabView: React.FC<SecurityLabViewProps> = ({
         <div className="lg:col-span-7 p-5 rounded-xl bg-[#0F172A] border border-[#1E2E4A] shadow-sm flex flex-col justify-between">
           <div className="flex items-center justify-between pb-3 mb-3 border-b border-[#1E2E4A]">
             <div>
-              <h3 className="text-sm font-bold text-white">7 Predefined PBL Test Cases</h3>
+              <h3 className="text-sm font-bold text-white">7 Predefined Security Test Cases</h3>
               <p className="text-xs text-slate-400">Packet Tracer test suite with expected ACL outcomes</p>
             </div>
             <span className="text-[11px] font-mono text-cyan-400 bg-[#111C35] px-2 py-0.5 rounded border border-[#1E2E4A]">

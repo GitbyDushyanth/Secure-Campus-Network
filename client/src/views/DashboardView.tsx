@@ -83,7 +83,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             Educational Simulation Notice & Project Scope
           </div>
           <p className="text-slate-400 leading-relaxed">
-            This dashboard simulates network behavior locally based on the college PBL Cisco Packet Tracer topology.
+            This dashboard simulates network behavior locally based on the campus Cisco Packet Tracer topology.
             It models router-on-a-stick subinterfaces on <span className="text-cyan-300 font-mono">Cisco 2911 (R1)</span>, 802.1Q dot1q trunking on <span className="text-blue-300 font-mono">Cisco 2960 (S1)</span>, sticky MAC port security, and Cisco Extended ACL policies.
             Live Cisco hardware connection is not implied; Packet Tracer remains the reference simulator.
           </p>
@@ -364,7 +364,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <div className="flex items-center justify-between mb-4">
             <div>
               <h3 className="text-sm font-bold text-white tracking-wide">Quick Educational Scenarios</h3>
-              <p className="text-xs text-slate-400">Execute key college PBL demonstration test cases</p>
+              <p className="text-xs text-slate-400">Execute key network security demonstration test cases</p>
             </div>
             <button
               onClick={() => onNavigate('security')}

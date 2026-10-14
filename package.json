@@ -1,7 +1,7 @@
 {
   "name": "secure-campus-network-simulation",
   "version": "1.0.0",
-  "description": "Secure Campus Network Design, Simulation & Security Monitoring Dashboard - College PBL",
+  "description": "Secure Campus Network Design, Simulation & Security Monitoring Dashboard",
   "scripts": {
     "dev:server": "npm.cmd --prefix server run dev",
     "dev:client": "npm.cmd --prefix client run dev",

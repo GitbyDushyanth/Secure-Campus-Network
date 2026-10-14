@@ -56,7 +56,7 @@ body {
   animation: packet-pulse 1s linear infinite;
 }
 
-/* Print Friendly Styles for PBL demonstration */
+/* Print Friendly Styles for network demonstration report */
 @media print {
   body {
     background: #ffffff !important;

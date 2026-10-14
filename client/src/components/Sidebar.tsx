@@ -56,7 +56,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </div>
           <div>
             <h1 className="text-sm font-bold text-slate-100 tracking-wide uppercase">Campus NOC</h1>
-            <p className="text-xs text-cyan-400 font-mono">PBL Network Sec</p>
+            <p className="text-xs text-cyan-400 font-mono">Campus Network Sec</p>
           </div>
         </div>
         <div className="mt-3 py-1.5 px-2.5 rounded bg-[#111C35] border border-[#1E2E4A] flex items-center justify-between text-xs">

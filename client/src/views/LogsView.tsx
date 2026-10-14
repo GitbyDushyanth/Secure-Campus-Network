@@ -60,7 +60,7 @@ export const LogsView: React.FC<LogsViewProps> = ({
         <div>
           <h3 className="text-sm font-bold text-white">Security Event Telemetry & Audit Logs</h3>
           <p className="text-xs text-slate-400">
-            Export test summaries, compliance logs, or generate printable PBL demonstration report
+            Export test summaries, compliance logs, or generate printable demonstration report
           </p>
         </div>
 
@@ -88,12 +88,12 @@ export const LogsView: React.FC<LogsViewProps> = ({
             className="flex items-center space-x-1.5 px-4 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-medium transition-all shadow-md"
           >
             <Printer className="w-3.5 h-3.5" />
-            <span>Print PBL Report</span>
+            <span>Print Network Report</span>
           </button>
         </div>
       </div>
 
-      {/* PRINT-FRIENDLY PBL DEMONSTRATION SECTION */}
+      {/* PRINT-FRIENDLY DEMONSTRATION SECTION */}
       {/* Visible only on print or expandable */}
       <div className="hidden print:block p-8 bg-white text-black space-y-6">
         <div className="border-b-2 border-black pb-4">
@@ -101,7 +101,7 @@ export const LogsView: React.FC<LogsViewProps> = ({
             Design and Implementation of a Secure Campus Network
           </h1>
           <p className="text-sm text-gray-700 mt-1">
-            College Project-Based Learning (PBL) Final Evaluation Report • Topology: Cisco 2911 Router + Cisco 2960 Switch + 5 VLANs
+            Network Architecture & Security Evaluation Report • Topology: Cisco 2911 Router + Cisco 2960 Switch + 5 VLANs
           </p>
           <div className="mt-2 text-xs text-gray-600">
             Generated on: {new Date().toLocaleString()} • Evaluation Host: Local Simulator
